@@ -43,7 +43,7 @@ while True:
 			vid.close()
     
 	        # set up gmail 
-	        server = smtplib.SMTP(FROM_EMAIL, 587)         
+	        server = smtplib.SMTP(smtp.gmail.com, 587)         
 	        server.starttls                                
 	        server.login(FROM_EMAIL, FROM_PASSWORD)
 			
